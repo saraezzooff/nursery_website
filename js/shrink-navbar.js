@@ -22,7 +22,7 @@ const dropdown = document.querySelector('.dropdown-menu');
 window.addEventListener('scroll',function(){
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
           {
-              if(pathname === '/index.html')
+              if(pathname === '/project/index.html')
                   {
                       navbar.classList.add('navbar-shrink');
                       btn1_active.classList.add('btn1-shrink');
@@ -34,7 +34,7 @@ window.addEventListener('scroll',function(){
                       console.log(dropdown.style.background);
                       dropdown.style.marginTop = "-35px";
                   }
-              else if(pathname === '/about.html'){
+              else if(pathname === '/project/about.html'){
                       navbar.classList.add('navbar-shrink');
                       btn1.classList.add('btn-shrink');
                       btn2_active.classList.add('btn1-shrink');
@@ -45,7 +45,7 @@ window.addEventListener('scroll',function(){
                       console.log(dropdown.style.background);
                       dropdown.style.marginTop = "-35px";
               }
-              else if (pathname === '/events.html'){
+              else if (pathname === '/project/events.html'){
                       navbar.classList.add('navbar-shrink');
                       btn1.classList.add('btn-shrink');
                       btn2.classList.add('btn-shrink');
@@ -56,7 +56,7 @@ window.addEventListener('scroll',function(){
                       console.log(dropdown.style.background);
                       dropdown.style.marginTop = "-35px";
               }
-              else if (pathname === '/gallery.html'){
+              else if (pathname === '/project/gallery.html'){
                       navbar.classList.add('navbar-shrink');
                       btn1.classList.add('btn-shrink');
                       btn2.classList.add('btn-shrink');
@@ -67,7 +67,7 @@ window.addEventListener('scroll',function(){
                       console.log(dropdown.style.background);
                       dropdown.style.marginTop = "-35px";
               }
-              else if (pathname === '/faq.html'){
+              else if (pathname === '/project/faq.html'){
                       navbar.classList.add('navbar-shrink');
                       btn1.classList.add('btn-shrink');
                       btn2.classList.add('btn-shrink');
@@ -78,7 +78,7 @@ window.addEventListener('scroll',function(){
                       console.log(dropdown.style.background);
                       dropdown.style.marginTop = "-35px"; 
               }
-              else if (pathname === '/contacts.html'){
+              else if (pathname === '/project/contacts.html'){
                       navbar.classList.add('navbar-shrink');
                       btn1.classList.add('btn-shrink');
                       btn2.classList.add('btn-shrink');
@@ -106,7 +106,7 @@ window.addEventListener('scroll',function(){
                       dropdown.style.marginTop = "-1px";
          
                 }
-            else if(pathname === '/about.html')
+            else if(pathname === '/project/about.html')
                 {
                       navbar.classList.remove('navbar-shrink');
                       btn1.classList.remove('btn-shrink');
@@ -117,7 +117,7 @@ window.addEventListener('scroll',function(){
                       btn6.classList.remove('btn-shrink');
                       dropdown.style.marginTop = "-1px";  
                 }
-            else if (pathname === '/events.html'){
+            else if (pathname === '/project/events.html'){
                       navbar.classList.remove('navbar-shrink');
                       btn1.classList.remove('btn-shrink');
                       btn2.classList.remove('btn-shrink');
@@ -127,7 +127,7 @@ window.addEventListener('scroll',function(){
                       btn6.classList.remove('btn-shrink');
                       dropdown.style.marginTop = "-1px";  
             }
-            else if (pathname === '/gallery.html'){
+            else if (pathname === '/project/gallery.html'){
                       navbar.classList.remove('navbar-shrink');
                       btn1.classList.remove('btn-shrink');
                       btn2.classList.remove('btn-shrink');
@@ -137,7 +137,7 @@ window.addEventListener('scroll',function(){
                       btn6.classList.remove('btn-shrink');
                       dropdown.style.marginTop = "-1px";    
             }
-            else if (pathname === '/faq.html'){
+            else if (pathname === '/project/faq.html'){
                       navbar.classList.remove('navbar-shrink');
                       btn1.classList.remove('btn-shrink');
                       btn2.classList.remove('btn-shrink');
@@ -147,7 +147,7 @@ window.addEventListener('scroll',function(){
                       btn6.classList.remove('btn-shrink');
                       dropdown.style.marginTop = "-1px";   
             }
-            else if (pathname === '/contacts.html'){
+            else if (pathname === '/project/contacts.html'){
                       navbar.classList.remove('navbar-shrink');
                       btn1.classList.remove('btn-shrink');
                       btn2.classList.remove('btn-shrink');
