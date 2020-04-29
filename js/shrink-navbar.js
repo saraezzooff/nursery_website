@@ -50,29 +50,29 @@ function iteratorRemoveFunction(input) {
 const dropdown = document.querySelector('.dropdown-menu');
 window.addEventListener('scroll', function () {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        if (pathname === '/index.html') { 
+        if (pathname === '/project/index.html') { 
             
             btn1_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn1); 
         }
-        else if (pathname === '/about.html') {
+        else if (pathname === '/project/about.html') {
 
             btn2_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn2); 
         }
-        else if (pathname === '/events.html') {
+        else if (pathname === '/project/events.html') {
             btn3_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn3); 
         }
-        else if (pathname === '/gallery.html') {
+        else if (pathname === '/project/gallery.html') {
             btn4_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn4); 
         }
-        else if (pathname === '/faq.html') {
+        else if (pathname === '/project/faq.html') {
             btn5_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn5); 
         }
-        else if (pathname === '/contacts.html') {
+        else if (pathname === '/project/contacts.html') {
             btn6_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn6); 
         }
@@ -81,30 +81,30 @@ window.addEventListener('scroll', function () {
     //////////////////////////////////////////////////////////////
 
     else if (document.body.scrollTop < 80 || document.documentElement.scrollTop < 80) {
-        if (pathname === '/index.html') {
+        if (pathname === '/project/index.html') {
             
             btn1_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn1); 
 
         }
-        else if (pathname === '/about.html') {
+        else if (pathname === '/project/about.html') {
             btn2_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn2); 
         }
-        else if (pathname === '/events.html') {
+        else if (pathname === '/project/events.html') {
            
             btn3_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn3); 
         }
-        else if (pathname === '/gallery.html') {
+        else if (pathname === '/project/gallery.html') {
             btn4_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn4); 
         }
-        else if (pathname === '/faq.html') {
+        else if (pathname === '/project/faq.html') {
             btn5_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn5); 
         }
-        else if (pathname === '/contacts.html') {
+        else if (pathname === '/project/contacts.html') {
             btn6_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn6); 
         }
