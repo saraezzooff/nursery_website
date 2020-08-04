@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bowlby+One&display=swap" >
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
+  
+
 </head>
 
 <body>
@@ -20,16 +22,17 @@
                         <!-- Start NavBar --> 
     <header id="header-nav">
         <!-- fixed-top to be on the top while scroll -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="main_navbar">
-          <a class="navbar-brand" href="#"><img class="img-responsive logo" src="images/logo.png"/></a>
+        <nav class="navbar fixed-top navbar-expand-lg  navbar-light" id="main_navbar">
+          <a class="navbar-brand" href="#"><img id="img-xl" class="img-responsive logo" src="images/logo.png"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <i class="fa fa-bars" aria-hidden="true"></i> <!-- change the toggler icon -->
+         <i class="fa fa-bars" aria-hidden="true"></i>  <!-- change the toggler icon -->
+              
           </button>
         <div class="content ml-auto">
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav d-flex align-items-end ">  <!-- align list items to the right -->
               <li class="nav-item" >
-                 <a id="btn1-active"  class="nav-link" href="index.html">Home</a>
+                 <a id="btn1-active"  class="nav-link btn1 active" href="index.html">Home</a>
               </li> 
         <li class="nav-item dropdown">
             <!--remove the data-toggle="dropdown" from the Testing menu-->
@@ -105,17 +108,19 @@
                                                <!-- Start Welcome Section-->
     <section id="welcome">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 data-aos="fade-right">Welcome!</h2>
+            <div class=" d-flex flex-row" >
+                <div id="wel-section">
+                    <h2>Welcome!</h2>
                     <h6>Kinder Preschool was established in 1998 by Peter McMillan with the main goal of providing primary education through a stimulating curriculum with help from a very devoted and nurturing staff.</h6>
                     <p>Our goals are accomplished through the efforts of a professional, caring, and dedicated staff that inspire children, involve parents and support colleagues, so that all children successfully achieve a love of learning, confidence in themselves, and respect for others.We always try to make our preschool an optimum environment for all children.</p>
                     <div id="wel-btn" class="hvr-radial-in"><a href="#">Read more</a></div>
                 </div>
-                <div id="wel-img" class="co-md-6">
-                    <img id="wel-1"  data-aos="fade-left" src="images/welcome-1.jpg">
-                    <img id="wel-2"  data-aos="fade-left" src="images/welcome-2.jpg">
-                    <img id="wel-3"  data-aos="fade-left" src="images/welcome-3.jpg">  
+                <div id="wel-img">
+                    <img id="wel-1" src="images/welcome-1.png">
+                    <img id="wel-2" src="images/welcome-2.png">
+                    <img id="wel-3" src="images/welcome-3.png">
+                    <img id="wel-4" src="images/welcome-4.png">
+                 
               </div>
             </div>
         </div>
@@ -124,29 +129,27 @@
     <section id="content">
         <div class="container">
             <div id="cont-row" class="row">
-                <div id="cont-1" data-aos="fade-right" class="col-md-3">
+                <div id="cont-1" class="col-xl-3 col-md-6 col-sm-12" data-aos="fade-right">
                     <h3>Our Centre</h3>
-                    <img src="/images/cont-1.jpg"  width="370px" height="400px" >
+                   <img src="/images/cont-1.jpg" class="mx-auto d-block" width="370px" height="400px" >
                     <h6>We have been in operation since 1998, for children from 2 to 6 years old.</h6>
                     <p>We believe it is our responsibility to provide environments and experiences that capture the joys of childhood, nurture each child’s individual growth and development.</p>
-                    <div id="cont-btn1" class="hvr-radial-in" ><a href="#">Read more</a></div>
+                   <div id="cont-btn1" class="mx-auto d-block"  class="hvr-radial-in" ><a href="#">Read more</a></div>
                 
                 </div>
-                <div id="cont-2" data-aos="fade-right" class="col-md-3">
+                <div id="cont-2" class="col-xl-3 col-md-6 col-sm-12" data-aos="fade-right">
                     <h3>Activities</h3>
-                    <img src="/images/cont-2.jpg" width="370px" height="400px" >
+                    <img src="/images/cont-2.jpg" class="mx-auto d-block" width="370px" height="400px" >
                     <h6>Our well-rounded curriculum based on free play, group and individual activities.</h6>
                     <p>The various activities included in the curriculum are based on varied monthly themes such as space, fire, water, earth, myself, family, people around us, birds, animals etc.</p>
-                    <div id="cont-btn2" class="hvr-radial-in"><a href="#">Read more</a></div>
-
-                
+                    <div  id="cont-btn2" class="mx-auto d-block" class="hvr-radial-in"><a href="#">Read more</a></div>
                 </div>
-                <div id="cont-3" data-aos="fade-right" class="col-md-3">
+                <div id="cont-3"  class="col-xl-3  col-md-6 col-sm-12" data-aos="fade-right">
                     <h3>Our Events</h3>
-                    <img src="/images/cont-3.jpg" width="370px" height="400px" >
+                    <img src="/images/cont-3.jpg" class="mx-auto d-block" width="370px" height="400px" > 
                     <h6>At our preschool, we conduct a wide range of educational events for children.</h6>
                     <p>From concerts to events devoted to special topics, there is always something to keep your children interested. The events and celebrations happen throughout the year.</p>
-                    <div id="cont-btn3" class="hvr-radial-in"><a href="#">Read more</a></div>
+                    <div id="cont-btn3" class="mx-auto d-block" class="hvr-radial-in"><a href="#">Read more</a></div>
                 </div>
             </div>
         </div>
@@ -169,25 +172,25 @@
     
     <section id="teacher">
         <div class="container">
-            <h2 data-aos="fade-up"> Our Teachers </h2>
+            <h2> Our Teachers </h2>
             <div class="row">
-                <div class="col-md-3" data-aos="fade-left">
-                    <img src="images/teacher-1.jpg">
+                <div class="col-xl-3 col-md-6"  data-aos="fade-left">
+                    <img src="images/teacher-1.jpg"  class="mx-auto d-block">
                     <h6>Jane Smith</h6>
                     <p>Jane joined our staff in 2017 but she is not new to education. She is a graduate of St. John’s University with a BA in English.</p>
                 </div>
-                <div class="col-md-3" data-aos="fade-left">
-                    <img src="images/teacher-2.jpg">
+                <div class="col-xl-3 col-md-6"  data-aos="fade-left">
+                    <img src="images/teacher-2.jpg" class="mx-auto d-block">
                     <h6>Kate Williams</h6>
                     <p>Kate is one of the hardest working teachers at Kinder. She has worked in all the classes and supervises our care programs.</p>
                 </div>
-                <div class="col-md-3">
-                     <img src="images/teacher-3.jpg" data-aos="fade-left">
+                <div class="col-xl-3 col-md-6 "  data-aos="fade-left">
+                     <img src="images/teacher-3.jpg" class="mx-auto d-block" >
                     <h6>Amanda Lee</h6>
                     <p>Amanda enjoys working with children. She especially likes offering children opportunities to express themselves.</p>
                 </div>
-                 <div class="col-md-3" data-aos="fade-left">
-                     <img src="images/teacher-4.jpg">
+                 <div class="col-xl-3 col-md-6"  data-aos="fade-left">
+                     <img src="images/teacher-4.jpg" class="mx-auto d-block">
                     <h6>Peter McMillan</h6>
                     <p>Peter’s loving and patient personality makes him a perfect teacher for children who enter our learning center.</p>
                 </div>
@@ -241,13 +244,12 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="js/bootnavbar.js"></script>
-  <script src="js/aos.js"></script>
   <script src="js/shrink-navbar.js"></script>
+  <script src="js/aos.js"></script>
 
  <script>
      $('#main_navbar').bootnavbar();
-     AOS.init();
-
+      AOS.init();
  </script>
 </body>
 </html>
