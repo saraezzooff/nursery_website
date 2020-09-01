@@ -52,7 +52,7 @@ function iteratorRemoveFunction(input) {
 const dropdown = document.querySelector('.dropdown-menu');
 window.addEventListener('scroll', function () {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        if (pathname.includes('/index.html')) { 
+        if (pathname.includes('/index.html') || pathname === ('https://saraezzooff.github.io/nursery_website')) { 
             
             btn1_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn1); 
@@ -83,7 +83,7 @@ window.addEventListener('scroll', function () {
     //////////////////////////////////////////////////////////////
 
     else if (document.body.scrollTop < 80 || document.documentElement.scrollTop < 80) {
-        if (pathname.includes('/index.html'))  {
+        if (pathname.includes('/index.html') || pathname === ('https://saraezzooff.github.io/nursery_website'))  {
             
             btn1_active.classList.remove('btn1-shrink');
             iteratorRemoveFunction(btn1); 
