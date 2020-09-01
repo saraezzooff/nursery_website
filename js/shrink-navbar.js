@@ -21,6 +21,7 @@ const btn5_active = document.querySelector('#btn5-active');
 const btn6_active = document.querySelector('#btn6-active');
 
 var pathname = window.location.pathname;
+console.log(pathname);
 
 
 console.log($(document).width());
