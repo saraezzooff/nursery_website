@@ -57,7 +57,7 @@ window.addEventListener('scroll', function () {
             btn1_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn1); 
         }
-        else if (pathname.includes('/about.html')) {
+        else if (pathname.includes('/about.html') || pathname === ('https://saraezzooff.github.io/nursery_website')) {
 
             btn2_active.classList.add('btn1-shrink');
             iteratorAddFunction(btn2); 
